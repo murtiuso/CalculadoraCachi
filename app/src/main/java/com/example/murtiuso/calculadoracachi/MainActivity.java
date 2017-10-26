@@ -1,6 +1,5 @@
 package com.example.murtiuso.calculadoracachi;
 
-import android.renderscript.Double2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -138,15 +137,6 @@ public class MainActivity extends AppCompatActivity {
         Sumar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Toast.makeText(MainActivity.this, "Suma", Toast);
-//                double num1 = Double.parseDouble(operando1.getText().toString());
-//                double num2 = Double.parseDouble(operando2.getText().toString());
-
-                //operando1 = Double.parseDouble(pantalla.getText().toString());
-
-                // double calculo = num1 + num2;
-
-                // resultado.setText(Double.toString(calculo));
 
                 try {
                     String contenidoPantalla = pantalla.getText().toString();
@@ -271,18 +261,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
     }
 
-    
-
 }
-
-
-// punto decimal
-
-// números negativos
-
-// que no se vea punto decimal desde el primer momento
-//    declarar int
-//      resultado debe ser double
