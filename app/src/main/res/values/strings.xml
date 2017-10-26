@@ -1,5 +1,28 @@
 <resources>
     <string name="app_name">CalculadoraCachi</string>
-    <string name="pantallacalc">PantallaCAlc</string>
+
+    <string name="Sumar">+</string>
+    <string name="Restar">-</string>
+    <string name="Multi">*</string>
+    <string name="Divi">/</string>
+
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="cero">0</string>
+
+
+    <string name="ac">AC</string>
+    <string name="borraAnt"><![CDATA[<-]]></string>
+    <string name="resul">=</string>
+    <string name="decimal">.</string>
+    <string name="negativo">-</string>
+
 
 </resources>

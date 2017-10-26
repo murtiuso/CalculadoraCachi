@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:columnCount="4"
+            android:useDefaultMargins="true"
+            android:orientation="horizontal"
+
+    >
+
+    <EditText
+        android:id="@+id/PantallaCalc"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_margin="10dp"
+
+
+        android:layout_rowSpan="1"
+
+
+        android:textSize="30sp"/>
+
+    <Button
+
+        android:id="@+id/sumar"
+        android:text="@string/Sumar"/>
+
+    <Button
+
+        android:id="@+id/restar"
+        android:text="@string/Restar"/>
+
+    <Button
+
+        android:id="@+id/multi"
+        android:text="@string/Multi"/>
+
+    <Button
+
+
+        android:id="@+id/divi"
+        android:text="@string/Divi"/>
+
+    <Button
+
+        android:id="@+id/siete"
+        android:text="@string/siete"/>
+
+    <Button
+
+        android:id="@+id/ocho"
+
+
+        android:text="@string/ocho"/>
+
+    <Button
+
+        android:id="@+id/nueve"
+
+        android:text="@string/nueve"/>
+
+    <Button
+
+        android:id="@+id/borrarTodo"
+
+        android:text="@string/ac"/>
+
+    <Button
+
+        android:id="@+id/cuatro"
+        android:text="@string/cuatro"/>
+
+    <Button
+
+        android:id="@+id/cinco"
+
+        android:text="@string/cinco"/>
+
+    <Button
+
+        android:id="@+id/seis"
+
+        android:text="@string/seis"/>
+
+    <Button
+
+        android:id="@+id/borrarAnterior"
+        android:text="@string/borraAnt"
+        />
+
+    <Button
+
+        android:id="@+id/uno"
+        android:text="@string/uno"/>
+
+    <Button
+
+        android:id="@+id/dos"
+        android:text="@string/dos"/>
+
+    <Button
+
+        android:id="@+id/tres"
+        android:text="@string/tres"/>
+
+    <Button
+    android:id="@+id/resultado"
+    android:layout_rowSpan="2"
+    android:layout_gravity="fill"
+    android:text="@string/resul"
+
+    />
+
+    <Button
+        android:id="@+id/decimal"
+        android:text="@string/decimal"/>
+
+    <Button
+
+        android:id="@+id/cero"
+        android:text="@string/cero"/>
+
+    <Button
+
+        android:id="@+id/negativo"
+
+
+        android:text="@string/negativo"/>
+
+
+</GridLayout>
+
+
+
+
+
+
+
+
+
